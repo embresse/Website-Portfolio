@@ -39,6 +39,7 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 .hero {
@@ -52,43 +53,57 @@ header nav ul li {
     border-width: 1em;
 }
 
+main {
+    margin: 10px;
+    width: 100%;
+    padding: 15px;
+   
+}
+
 .content {
-    margin: 5px;
-    margin-right: 100px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 
 h2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     font-size: 30px;
-    border: solid black 6px;
-    width:max-content;
     padding: 10px;
+    width: fit-content;
 }
 
 
 p{
-    margin-left: 200px;
     font-size: 20px;
-    padding: 20px;
-    width:fit-content;
+    margin: 10px;
+    padding: 15px;
     border-left: 6px solid black;
 }
 
 footer {
-    margin: 5px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.footer-section {
+    display: flex;
+    padding: 5px;
+    width: 100%;
 }
 
 footer ul{
     display: flex;
-    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
     list-style-type: none;
-    justify-content: space-around;
     text-decoration: underline;
+    font-weight: bold;
+    border-left: 6px solid black;
+}
 
+footer ul li {
+    margin-right: 70px;
+    padding: 10px 20px 20px 5px;
 }
