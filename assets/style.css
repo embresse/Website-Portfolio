@@ -7,6 +7,8 @@ body {
     background-color: lightskyblue;
 }
 
+/* header styling */
+
 header {
     font-family:cursive;
     background-color: rgb(168 114 101);
@@ -42,6 +44,8 @@ header nav ul li {
     margin-right: 25px;
 }
 
+/* background image */
+
 .hero {
     height: 400px;
     width: 100%;
@@ -53,6 +57,8 @@ header nav ul li {
     border-width: 1em;
 }
 
+/* main styling */
+
 main {
     margin: 10px;
     width: 100%;
@@ -62,29 +68,30 @@ main {
 
 .content {
     display: flex;
-    justify-content: space-between;
     padding: 10px;
 }
 
 h2 {
     font-size: 30px;
-    padding: 10px;
+    padding: 20px;
+    border-right: 6px solid black;
 }
 
 
 p{
     font-size: 20px;
     padding: 15px;
-    border-left: 6px solid black;
+ 
 }
 
+/* portfolio images and tags */
 
 .images {
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-left: 6px solid black;
+ 
 }
 
 .image {
@@ -104,6 +111,9 @@ p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+
+/* footer styling */
+
 footer {
     margin: 10px;
     padding: 10px;
@@ -111,13 +121,12 @@ footer {
 
 footer h2 {
     font-size: 20px;
-    padding: 10px;
+    padding: 25px;
     display: flex;
 }
 
 .footer-section {
     display: flex;
-    flex-wrap: wrap;
     padding: 5px;
     width: 100%;
 }
@@ -129,7 +138,6 @@ footer ul{
     list-style-type: none;
     text-decoration: underline;
     font-weight: bold;
-    border-left: 6px solid black;
 }
 
 footer ul li {
@@ -137,6 +145,8 @@ footer ul li {
     padding: 10px 20px 20px 5px;
 }
 
+
+/* media queries */
 
 @media screen and (max-width: 992px) {
   }
