@@ -1,4 +1,3 @@
-# Code Refactor Starter Code
 # <Website Portfolio Challenge>
 
 ## Description
